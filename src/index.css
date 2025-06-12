@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul-list{
+    list-style-type:disc;
+    margin-left: 35px;
+    margin-top:8px;
+    
+    
+}
+.bottom ul li:nth-child(odd){
+ background: #e9e9f069;
+ align-items:normal;
+}
+.bottom ul li{
+    padding: 10px 25px;
+    color: #505050;
+}
+
+.slick-slide {
+  transition: background-color 0.3s ease;
+   transition: all 0.3s ease;
+  transform: scale(0.95);
+}
+
+.text-green-500, .text-green-600, .text-green-700, .text-[#145a23], .text-[#115256], .text-[#096D72] {
+  color: #1e40af !important;
+}
+
+
+
